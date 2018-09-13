@@ -11,4 +11,13 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-Vue.use(Vuetify)
+
+
+Vue.use(Vuetify, {
+  iconfont: 'fa4',
+  theme: {
+    primary: colors.red.darken1, // #E53935
+    secondary: colors.red.lighten4, // #FFCDD2
+    accent: colors.indigo.base // #3F51B5
+  }
+ })
