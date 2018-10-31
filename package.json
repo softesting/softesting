@@ -22,8 +22,12 @@
     "material-design-icons-iconfont": "^3.0.3",
     "node-sass": "^4.9.4",
     "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "vue-cli-plugin-vuetify": "^0.4.5",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "vuetify-loader": "^1.0.5",
+    "webpack": "^4.23.1"
   },
   "eslintConfig": {
     "root": true,
