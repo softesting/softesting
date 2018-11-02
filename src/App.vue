@@ -2,8 +2,8 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>{{title}}</span>
+        <span class="font-weight-light body-2">MATERIAL DESIGN</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -31,7 +31,7 @@ export default {
   },
   data () {
     return {
-      //
+      title: "Vuetify"
     }
   }
 }
