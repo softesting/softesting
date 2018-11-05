@@ -2,9 +2,8 @@
   <v-container>
     <v-content>
       <section>
-        <v-parallax src="./../../assets/hero.jpeg" height="600">
+        <v-parallax src="https://expertbeacon.com/sites/default/files/create_a_successful_and_impactful_brand_for_your_new_business_venture.jpg" height="600">
           <v-layout column align-center justify-center class="white--text">
-            <img src="assets/logo.png" alt="Vuetify.js" height="200">
             <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
             <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
             <v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">{{getStarted}}</v-btn>
@@ -75,7 +74,7 @@
       </section>
 
       <section>
-        <v-parallax src="assets/section.jpg" height="380">
+        <v-parallax src="https://d-pt.ppstatic.pl/kadry/k/r/1/66/72/5a5eec0e26f5f_o,size,969x565,q,71,h,b66202.jpg" height="380">
           <v-layout column align-center justify-center>
             <div class="headline orange--text mb-3 text-xs-center">Web development has never been easier</div>
             <em>Kick-start your application today</em>
@@ -124,7 +123,7 @@
                       <v-icon class="blue--text text--lighten-2">place</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>Chicago, US</v-list-tile-title>
+                      <v-list-tile-title>Wrocław</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                   <v-list-tile>
