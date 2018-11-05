@@ -2,7 +2,7 @@
   <v-container>
     <v-content>
       <section>
-        <v-parallax src="https://expertbeacon.com/sites/default/files/create_a_successful_and_impactful_brand_for_your_new_business_venture.jpg" height="600">
+        <v-parallax src="https://ix-cdn.brightedge.com/images/43431/43431_1e46749714f941a2a8eb326fa1ab7439_1505352510.jpg" height="600">
           <v-layout column align-center justify-center class="white--text">
             <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
             <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
@@ -74,7 +74,7 @@
       </section>
 
       <section>
-        <v-parallax src="https://d-pt.ppstatic.pl/kadry/k/r/1/66/72/5a5eec0e26f5f_o,size,969x565,q,71,h,b66202.jpg" height="380">
+        <v-parallax src="https://ix-cdn.brightedge.com/images/43431/43431_1e46749714f941a2a8eb326fa1ab7439_1505352510.jpg" height="380">
           <v-layout column align-center justify-center>
             <div class="headline orange--text mb-3 text-xs-center">Web development has never been easier</div>
             <em>Kick-start your application today</em>
