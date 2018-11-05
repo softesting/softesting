@@ -1,10 +1,9 @@
 import '@babel/polyfill'
-
+import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
 import Vue from 'vue'
 import './plugins/vuetify'
-import './plugins/vuetify'
 import App from './App.vue'
-import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
+
 
 Vue.config.productionTip = false
 
@@ -15,6 +14,6 @@ new Vue({
 Vue.use(Vuetify, {
   iconfont: 'fa4',
   icons: {
-    'left-arrow': 'left-arrow'
+    'bomb': 'bomb'
   }
 })
