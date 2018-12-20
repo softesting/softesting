@@ -7,7 +7,9 @@
 
       </v-toolbar-title>
       <v-spacer></v-spacer>
-
+      <v-btn flat href="www.softesting.pl" target="_blank">
+        <span class="mr-2">Latest Release</span>
+      </v-btn>
             <Navi />
     </v-toolbar>
 

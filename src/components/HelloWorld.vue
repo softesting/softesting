@@ -95,9 +95,9 @@
                   <div class="headline">Company info</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                  <span class="blue--text text--lighten-2">{{title}} </span> jest niezależną firmą oferującą pełen zakres usług związanych z testowaniem oprogramowania i zapewnieniem jakości. 
+                  Zajmujemy się testowaniem szerokiej gamy produktów, takich jak aplikacje mobilne, internetowe i desktopowe oraz usprawnianiem istniejących procesów testowych w różnych branżach przemysłu. 
+                  W trakcie Naszych testów badamy zarówno aspekty funkcjonalne, jak i niefunkcjonalne. Posiadamy wieloletnie doświadczenie w testach manualnych i automatycznych, korzystając przy tym z darmowych i komercyjnych narzędzi. Mamy doświadczenie w testach produktów wszelkiego typu – w Naszych szeregach znajdziesz pracowników, którzy testowali wiele różnych systemów na różnych urządzeniach. W swoim dorobku mamy przeprowadzanie testów od „prostych” stron firmowych po systemy Life-critical. Na co dzień pracujemy w „Scrumie”, natomiast bez problemu dostosujemy się do sposobu pracy w Twojej organizacji. Testy  oprogramowania to dla Nas coś więcej niż tylko praca dlatego również propagujemy wiedze z obszaru testowania. 
                 </v-card-text>
               </v-card>
             </v-flex>
@@ -161,6 +161,9 @@
 <script>
   export default {
     data: () => ({
+      title : "Softesting.pl",
+
+      // buttons
       getStarted: "Get started"
     })
   }

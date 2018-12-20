@@ -4,15 +4,15 @@
       <v-toolbar-title class="headline text-uppercase">
         <span>{{title}}</span>
         <span class="font-weight-light body-2">{{subtitle}}</span>
-
+                <Navi />
       </v-toolbar-title>
       <v-spacer></v-spacer>
-
-            <Navi />
+      <v-btn flat href="www.softesting.pl" target="_blank">
+        <span class="mr-2">Latest Release</span>
+      </v-btn>
     </v-toolbar>
-
+    
     <v-content>
-
       <HelloWorld/>
     </v-content>
 

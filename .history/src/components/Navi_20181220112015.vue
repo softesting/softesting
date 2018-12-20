@@ -1,43 +1,26 @@
 <template>
-  <v-app light>
-    <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>{{title}}</span>
         <span class="font-weight-light body-2">{{subtitle}}</span>
 
       </v-toolbar-title>
       <v-spacer></v-spacer>
-
-            <Navi />
-    </v-toolbar>
-
-    <v-content>
-
-      <HelloWorld/>
-    </v-content>
-
-  </v-app>
+      <v-btn flat href="www.softesting.pl" target="_blank">
+        <span class="mr-2">Latest Release</span>
+      </v-btn>
+    <ul>
+        <li>list</li>
+        <h2>test</h2>
+    </ul>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld'
-import Navi from './components/Navi'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-    Navi
-  },
+    name: "Navi"
+};
   data () {
     return {
       title: "Vuetify",
       subtitle: "MATERIAL DESIGN"
     }
   }
-}
 </script>
-<style lang="scss" scoped>
-
-</style>
-

@@ -4,15 +4,17 @@
       <v-toolbar-title class="headline text-uppercase">
         <span>{{title}}</span>
         <span class="font-weight-light body-2">{{subtitle}}</span>
-
       </v-toolbar-title>
       <v-spacer></v-spacer>
-
-            <Navi />
+      <v-btn flat href="www.softesting.pl" target="_blank">
+        <span class="mr-2">Latest Release</span>
+      </v-btn>
+      <v-row-expand-transition>
+        <Navi />
+      </v-row-expand-transition>
     </v-toolbar>
 
     <v-content>
-
       <HelloWorld/>
     </v-content>
 
@@ -38,6 +40,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
+  .row{
+    width: 100%,
+    display: woe
+  }
 </style>
 

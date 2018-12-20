@@ -6,7 +6,6 @@
         <span class="font-weight-light body-2">{{subtitle}}</span>
 
       </v-toolbar-title>
-      <v-spacer></v-spacer>
 
             <Navi />
     </v-toolbar>
